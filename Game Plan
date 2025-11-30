@@ -1,0 +1,75 @@
+Members: Corbin Wright, Andrew Wilk, Michael Bush 
+
+Problem: 
+
+(100 pts) Zombie Game You are required to implement an Agent Based Modeling game. A relatively large amount of agents are required. Both Zombies and Humans are required to have variants. For example, humans can have multiple roles, such as Doctor and Hunter. OOP design is required. Database is required to store the states of agents. Parallelism is required in the implementation of the game body. Hyperparameters are required, such as the Zombie-Human ratio. You are also required to propose and conduct at least two studies of dynamics of the game, such as the dynamics of the populations of Zombies and Humans. You will detail your studies in an academic style write-up. You will present your work to Fanchao. 
+
+ 
+
+ 
+
+Game Plan: 
+
+Create simple agent-based modeling game 
+
+Increase complexity of game (add roles for each, increase # of agents, additional abilities and pick-ups) 
+
+Set up data base and properly organize it 
+
+Connect data base to store states 
+
+Implement parallelism in game body  
+
+ 
+
+Game Features: 
+
+Zombies: 
+
+Regular – attracted to larger groups of humans 
+
+Deteriorated – slower speed, lower health 
+
+Runner – increased speed 
+
+Tank – Slow, heavy damage 
+
+ 
+
+Humans: 
+
+Regular - base stats 
+
+Doctor – Has medicine, favors finding low health humans 
+
+Leader – Attracts humans 
+
+Hunter – Increased damage, aggressiveness 
+
+Shield – No damage, chance an attack gets through 
+
+Lone Wolf – Stays away from group but can see further away 
+
+ 
+
+Dynamics to Study: 
+
+What's more beneficial for human survival, more attackers, or more healers? 
+
+Lone wolf or group mentality beneficial for human survival? 
+
+How many humans turn into zombies 
+
+ 
+
+Things Still to do: 
+
+Implement Multithreading 
+
+Finalize game dynamics 
+
+Snapshot history for analyzing 
+
+GitHub with files and break down 
+
+ 
