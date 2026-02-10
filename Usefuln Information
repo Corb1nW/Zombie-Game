@@ -1,0 +1,20 @@
+Useful information:
+WSL IP Address: 172.20.127.127
+
+Connect to DB as posgres:
+psql -U zombie_user -d zombie_game -h localhost
+password: violet230201 <- Should change
+\q to quit
+
+Turn on venv: zombie
+cd ~/zombie_game
+
+
+zombie          
+python run_game.py
+
+sudo service postgresql status
+sudo service postgresql start
+sudo service postgresql stop
+
+nano - edit script
