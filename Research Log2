@@ -1,0 +1,123 @@
+Reinforcement Learning Log: 
+
+1/21/26: The goal for this log is to continue my exploration into Reinforcement Learning and the many topics within that scope. The use of Ai will be crucial for efficiency in my learning progress. 
+
+  
+
+2 MAIN POINTS for understanding a topic: 
+
+1) Motivation - why did we create this solution, and what problem does it solve? 
+
+2) Intuition - brief understanding of the process 
+
+  
+
+Use this space to not only document the progress and topics learned (Needed for briefs before meetings), but also as a chance to put these concepts into my own words; further enhancing my understanding of ems 
+
+ 
+
+(1/21/26) - (1/28/26) 
+
+On/Off policy: 
+
+Policy- the guide for an agent when it encounters different states. Involves mapping states of the environment and agent to decisions that the agent should make. These can be simple like a state resulting in a fixed action, or they can be much more complex calculations involving learning from past attempts. Goal is to have a policy such that it maximizes the reward for the agent during its run.  
+
+ 
+
+Exploration & Exploitation 
+
+Exploration- try new actions to gain more information and possibly more rewarding routes 
+
+Exploitation- use current knowledge to make a choice with more immediate reward  
+
+A trade-off between the two E’s is crucial for the effectiveness of RL algorithms  
+
+ 
+
+On-Policy Learning 
+
+It uses the current strategy to go through the problem and learn from its attempts. Kind of like how humans learn from trial and error. It uses its own actions to “master” its decision making.  
+
+Off-Policy Learning 
+
+This approach learns from watching someone else’s experience. By observing another strategy (potentially better), you can learn about the optimal policy without having to follow it. Like learning from videos experiences that you would have never encountered in your own life.  
+
+ 
+
+Pros & Cons 
+
+On – Is more straightforward and self-contained. But could be less efficient, spending time learning from sub-optimal actions 
+
+Off – Could be more efficient if it is learning from good resources and optimal actions. But much more complex applying the observations into your own policy actions 
+
+ 
+
+Markov Decision Process: 
+
+It is used in situations where an agent needs to work through a variable environment where each action could lead to a different outcome. Agents need to know what action to take, what happens after that action, and if the result is good or bad.  
+
+ 
+
+Five Main Parts: 
+
+States – condition and place of an agent 
+
+Actions – what an agent can do from its current state 
+
+Transition Model – what happens after an action is taken 
+
+Reward - number given after an action is taken. Positive if the action should be encouraged or negative it should be discouraged 
+
+Policy – the agent’s plan behind taking actions in different states 
+
+ 
+
+(1/28/26 - 2/4/26) 
+
+Bellman’s Optimality Principle: 
+
+For a policy to be truly optimal, it must have the property of every decision from the initial state must also be optimal. Regardless of how you break up the route of the optimal path, each individual substructure must be optimal in it of itself.  
+
+ 
+
+Control Theory: 
+
+Focuses on dynamic systems and how to choose inputs that will satisfy the desired objective. Usually involves observing the state and establishing controllers with the intention of creating stability and optimality.  
+
+ 
+
+Open Loop: 
+
+The control behind an action is pre-established and independent from the product of the action. Having the control set beforehand prevents the system from being adaptive and prone to errors in unexpected scenarios.  
+
+ 
+
+Closed Loop (Feedback): 
+
+The control behind an action is dependent on its state/output. Like a heating system turning off/on depending on the temperature of the area, it is heating. Tends to be the preferred option, especially in dynamic programming.  
+
+ 
+
+Stability: 
+
+We could consider a system stable if small disturbance only results in a small deviation and does not get out of control. In a better case, it would be asymptotically stable, which means that even with a small disturbance, the system will return back to its baseline. In this scenario, the system should always end up back at equilibrium.  
+
+ 
+
+(2/4/26-2/11/26) 
+
+ 
+
+ 
+
+ 
+
+Sources: 
+
+https://www.geeksforgeeks.org/machine-learning/on-policy-vs-off-policy-methods-reinforcement-learning/ 
+
+https://www.geeksforgeeks.org/machine-learning/markov-decision-process/ 
+
+ 
+
+ 
