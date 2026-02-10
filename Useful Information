@@ -3,7 +3,7 @@ WSL IP Address: 172.20.127.127
 
 Connect to DB as posgres:
 psql -U zombie_user -d zombie_game -h localhost
-password: violet230201 <- Should change
+password: 
 \q to quit
 
 Turn on venv: zombie
