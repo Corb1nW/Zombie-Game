@@ -105,10 +105,49 @@ We could consider a system stable if small disturbance only results in a small d
  
 
 (2/4/26-2/11/26) 
-badskfbdfs;fsdf
-fjnfjklsf
+Controllability: 
+
+The ability to choose an input that can cause a desired change in the state. If no such inputs can reliably produce an intended state, then it would be considered not controllable. Lack of controllability does not necessarily affect the stability; the dynamics can still be stable; known as stabilizable. 
+
+Observability: 
+
+The ability to use output measurements to view the state of the system. If it is not observable, then the controller will have no hope of being able to stabilize the system. 
 
  
+
+Mini max and alpha beta pruning  
+
+Alpha Beta Pruning – keeps track of two scores alpha (best maximizer score) and beta (best minimizer score) and stops exploring a branch if its best possible outcome is no better than a previously found option. This is assuming the opponent plays the best moves, and if their advantage is better or they will win then disregard that path. 
+
+ 
+
+Dynamic Programming: 
+
+Starts with the simple idea of storing solutions to subproblems instead of recursively solving every problem each time it comes up. This frees up a lot of time from wasteful and unnecessary computation, potentially reducing exponential time complexities down to polynomial. “Remembering the past to solve the future faster” (Geeks). There are two main ways to store the results of these subproblems: memoization (top down) or tabulation (bottom up).  
+
+ 
+
+Optimal Substructure: 
+
+Using the optimal results to subproblems to gurantee the optimal solution to the total problem. 
+
+ 
+
+Overlapping Subproblems: 
+
+Especially in recursive problems, though not exclusively, we will see the same problem come up repeatedly. Solving these problems each individually should always be avoided. 
+
+ 
+
+Memoization: 
+
+Keeps the problem recursive but simply uses a table to store the data as it goes. So, before any recursive calls, it will check the table for a pre-established solution. If there is no solution, then it will go about its normal operations and then store the solution it generates to the table to prevent any repeat calculations.  
+
+ 
+
+Tabulation: 
+
+This follows the same idea as memoization but instead drops the recursive approach for an iterative one. It starts at the smallest subproblem and works its way up to the final solution to the problem. Storing its results in a table all the way up which should simplify the calculations in the later subproblems.  
 
  
 
@@ -119,6 +158,10 @@ Sources:
 https://www.geeksforgeeks.org/machine-learning/on-policy-vs-off-policy-methods-reinforcement-learning/ 
 
 https://www.geeksforgeeks.org/machine-learning/markov-decision-process/ 
+
+https://www.geeksforgeeks.org/artificial-intelligence/alpha-beta-pruning-in-adversarial-search-algorithms/  
+
+https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/ 
 
  
 
