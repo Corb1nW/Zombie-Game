@@ -149,9 +149,67 @@ Tabulation:
 
 This follows the same idea as memoization but instead drops the recursive approach for an iterative one. It starts at the smallest subproblem and works its way up to the final solution to the problem. Storing its results in a table all the way up which should simplify the calculations in the later subproblems.  
 
+ (2/11/26-2/18/26) 
+
+Continuous actions in Control Theory: 
+
+Continuous Action - an input into the system for every moment in time. Different from a normal set list of input options, now we are choosing a real number to input continuously through time to represent our change to the system.  
+
+Since we are not simply choosing a single action, we must design a control law for the continuous action 
+
+ 
+
+Advantages of Continuous Time Control Systems: 
+
+Since it is continuous, they inherently can react quicker to changes from input signals. This quicker reaction time makes tolerable to disruptions and loud surroundings 
+
+Offers higher levels of accuracy and precision with operations 
+
+Integrate easily to real life systems such as analog sensors and actuators 
+
+ 
+
+Disadvantages of Continuous Time Control Systems: 
+
+Continuous time system analysis implements differential equations which can be more time-consuming than discrete time systems 
+
+May need to implement filtering out or reduction of analog signal noise. This noise can very much negatively impact the performance of our system.  
+
+ 
+
+Bellman Optimality Equation: 
+
+Defines the value of a state as the reward you get now plus the value of the expected future  
+
+We can view this story from two perspectives: state value and action value 
+
+State: 
+
+ 
+
+Action: 
+
  
 
  
+
+Breakdown of each element: 
+
+V*(s) -> represents the optimal value for state s 
+
+maxa  -> just choosing the best action  
+
+R(s,a) -> immediate reward for an action in a state 
+
+Gamma -> discount factor (0≤γ≤1) 
+
+• γ=0: only care about now 
+• γ→1: care a lot about the future 
+
+P(s’|s,a) -> probability of transition (if action a in state s, the probability of s’) 
+
+∑s′P(s′∣s,a)V∗(s′) -> Expected value of next state 
+
 
 Sources: 
 
@@ -162,6 +220,8 @@ https://www.geeksforgeeks.org/machine-learning/markov-decision-process/
 https://www.geeksforgeeks.org/artificial-intelligence/alpha-beta-pruning-in-adversarial-search-algorithms/  
 
 https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/ 
+
+https://www.geeksforgeeks.org/electrical-engineering/continuous-time-and-discrete-time-control-systems/  
 
  
 
