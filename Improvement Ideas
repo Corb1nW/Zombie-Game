@@ -1,0 +1,23 @@
+Zombie Game Improvement Ideas: 
+
+Turn Humans to Learning Agents w/ heuristics 
+
+	-Just Start with Humans first and improve Zombies once we have a better 	base of knowledge  
+
+Move from a discrete turn-based moves to a continuous action space 
+
+	-Keeping track of states and actions continuously may be overwhelming with 	our large number of agents. Obviously, connection with our database should 	remain and hopefully make it less straining  
+
+Add Reward system 
+
+	-Obviously want to encourage combat and items collection/use in Humans 
+
+Make the state space more explicit 
+
+More interesting Items 
+
+-Differentiate between the items that change agent roles and agent states 
+
+Improve multithreading by reducing valid checks 
+
+	-Use small, isolated batches to validate the update 
