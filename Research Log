@@ -210,6 +210,18 @@ P(s’|s,a) -> probability of transition (if action a in state s, the probabilit
 
 ∑s′P(s′∣s,a)V∗(s′) -> Expected value of next state 
 
+(2/18/26-2/25/26) 
+
+Swarm Intelligence: 
+
+Takes a cue from biomimicry in engineering. The basic idea is to have simple rules for a mass of agents that result in a much more complex global behavior (emergent behavior). We see behavior like this in ants and birds. This concept works on the base that we are not trying to directly control any single agent, but instead the total mass of agents. This works using internal feedback of not just the agents' state, but the state of the neighbor to make its next decision. So, without any specified goal to agents, we hope to see this feedback loop result in a convergence towards an intended outcome or a new emergent behavior.  
+
+ 
+
+Digital Twin: 
+
+Digital twins are used to model real world systems, by using real data from these systems to create a virtual version that can be updated. The intended goal of these twins is to replicate the behaviors of these systems such that they be used to predict outcomes that the real-world system may face. The main three components for these twins are: the real system (obviously), sensors and data from the system, and then the virtual model. The virtual model takes the data from the real-world system and then updates itself in a constant feedback loop. These digital twins can have a lot of limitations depending on the sensory data available and the complexity of the model itself. But with adequate resources dedicated, these twins offer a great platform where we can test out our systems without risking any real-world resources or lives.  
+
 
 Sources: 
 
